@@ -1,10 +1,10 @@
-# It seems as if Code Climate counts SLOC. For this file it reports 8 lines of
+# It seems as if Code Climate counts SLOC. For this file it reports 265 lines of
 # code.
 #
 # This code violates the third maintainability check `file-lines`
 
 
-def print_it():
+if __name__ == '__main__':
     print('0')
     print('1')
     print('2')
@@ -265,11 +265,3 @@ def print_it():
     print('257')
     print('258')
     print('259')
-
-
-def main():
-    print_it()
-
-
-if __name__ == '__main__':
-    main()
